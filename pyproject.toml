@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "crud-django"
+version = "0.1.0"
+description = "A simple crud made in django."
+authors = ["jockaplay <jocksonmatheus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
